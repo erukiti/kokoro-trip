@@ -2,5 +2,5 @@ express = require('express');
 
 app = express()
 
-app.use(app.static('.'));
-
+app.use(express.static('.'));
+app.listen(3000)
